@@ -78,4 +78,4 @@ while True:
     draw_tree(grid)
     sys.stdout.write("\n".join(map("".join, grid)))
     sys.stdout.flush()
-    time.sleep(1)
+    time.sleep(0.5)
